@@ -22,11 +22,13 @@
 .btn{
     margin-top: 1.25rem;
     padding: 0.8rem 3rem;
-    border-radius: 7px;
+    border-radius: 15px;
     letter-spacing: 0.5px;
 }
 .btn-primary{
     background: #336ea2;
+    border: 0.5px solid #fff;
+    transition: 0.4s;
 }
 .btn-primary:hover {
     color: #336ea2;
@@ -35,6 +37,7 @@
 }
 .btn-dark{
     background: #333;
+    border: 0.5px solid #fff;
 }
 .btn-dark:hover {
     color: #333;
